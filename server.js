@@ -22,7 +22,7 @@ app.use(bodyParser.json()); //req.body
 // routes
 app.use("/user", userRoutes);
 app.use("/menu", menuRoutes);
-
+//comment add
 app.listen(3000, () => {
   console.log("server is listning on 3000");
 });
